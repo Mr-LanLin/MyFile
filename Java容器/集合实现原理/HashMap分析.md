@@ -15,6 +15,7 @@ transient volatile int modCount | 修改次数
 transient Set<Map.Entry<K,V>> entrySet | Eentry集合
 transient volatile Set<K> keySet (AbstractMap) | key集合
 transient volatile Collection<V> values (AbstractMap) | value集合
+	
 `HashMap`继承自`AbstractMap`，实现了`Map`, `Cloneable`, `Serializable`
 
 Entry[] table | first Entry | next Entry | next Entry | next Entry | ...
