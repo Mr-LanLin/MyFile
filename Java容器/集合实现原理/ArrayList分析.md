@@ -17,7 +17,7 @@ transient int modCount (extends) | 记录修改次数
 
 <———— size ————>
 
-<—————— capacity ——————>
+<——————capacity——————>
 
 `ArrayList`继承自`AbstractList`，实现了`List`、`RandomAccess`、`Cloneable`、`Serializable`接口，内部使用`Object[]`容纳元素。这表明`ArrayList`**可以有序存放任何元素，拥有增删改查功能，并且可以快速随机访问，可以复制，可以被序列化**
 
