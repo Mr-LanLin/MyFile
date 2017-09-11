@@ -107,7 +107,7 @@ transient int modCount (extends) | 记录修改次数
 
 ##### `public void ensureCapacity(int minCapacity)`确保容量
 
-> 思路：`if (minCapacity > oldCapacity)` `newCapacity = (oldCapacity * 3)/2 + 1;`  <br/>`if (newCapacity < minCapacity)``newCapacity = minCapacity;`  <br/>`elementData = Arrays.copyOf(elementData, newCapacity);`
+> 思路：`if (minCapacity > oldCapacity)` `newCapacity = (oldCapacity * 3)/2 + 1;`  <br/>&nbsp;&nbsp;&nbsp;&nbsp;`if (newCapacity < minCapacity)``newCapacity = minCapacity;`  <br/>&nbsp;&nbsp;&nbsp;&nbsp;`elementData = Arrays.copyOf(elementData, newCapacity);`
 
 #### 3、继承方法
 
