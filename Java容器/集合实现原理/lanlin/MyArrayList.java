@@ -227,7 +227,7 @@ public class MyArrayList<E> implements Iterable<E> {
             @Override
             public void remove() {
                 rangeCheck(nextIndex);
-                MyArrayList.this.remove(nextIndex--);
+                MyArrayList.this.remove(nextIndex);
             }
         };
     }
