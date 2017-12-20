@@ -120,7 +120,7 @@ public @interface RequestMapping {
 }
 ```
 
-**前段控制器：DispachterServlet**
+**前端控制器：DispachterServlet**
 
 ```java
 package com.thunisoft.servlet;
