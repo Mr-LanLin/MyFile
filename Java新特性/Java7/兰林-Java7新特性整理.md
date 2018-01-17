@@ -43,8 +43,8 @@
 
 ```java
 switch(myString) { 
-    case “one”: <do something>; break; 
-    case “two”: <do something else>; break; 
+    case "one": <do something>; break; 
+    case "two": <do something else>; break; 
     default: <do something generic>; 
 }
 ```
